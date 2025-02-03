@@ -37,4 +37,6 @@ for question in questions:
     if user_answer == correct_answer:
         score += 1
 
+    print()
+
 print(f"Your score = {score}/{len(questions)}")
